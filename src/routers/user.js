@@ -3,10 +3,10 @@
 const express = require('express')
 const sharp = require('sharp')
 const router = new express.Router()
-const User = require('../models/user')
-const auth = require('../middleware/auth')
+const User = require('.\\src\\models\\user.js')
+const auth = require('.\\src\\middleware\\auth.js')
 const multer = require('multer')
-const { sendWelcomeEmail, sendCancelationEmail } = require('..emails/account')
+const { sendWelcomeEmail, sendCancelationEmail } = require('.\\src\\emails\\account.js')
 
 
 

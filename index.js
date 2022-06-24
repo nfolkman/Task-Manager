@@ -1,9 +1,9 @@
 // Require the packages we will need in the app
 
 const express = require('express')
-const userRouter = require('./routers/user')
-const taskRouter = require ('./routers/tasks')
-const mongooserequiring = require('./db/mongoose')
+const userRouter = require('.\\src\\routers\\user.js')
+const taskRouter = require ('.\\src\\routers\\tasks.js')
+const mongooserequiring = require('.\\src\\db\\mongoose.js')
 
 
 

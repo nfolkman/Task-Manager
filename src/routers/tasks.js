@@ -5,9 +5,9 @@ const express = require('express')
 
 const router = new express.Router()
 
-const Task = require('../models/task')
+const Task = require('.\\src\\models\\task.js')
 
-const auth = require('../middleware/auth')
+const auth = require('.\\src\\middleware\\auth.js')
 
 
 // Create task //

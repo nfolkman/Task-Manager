@@ -1,11 +1,30 @@
 {
   "name": "task-manager-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h1>Task Management App</h1>",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nfolkman/Task-Manager-App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nfolkman/Task-Manager-App/issues"
+  },
+  "homepage": "https://github.com/nfolkman/Task-Manager-App#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.7",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.0",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.30.7",
+    "validator": "^13.7.0"
+  }
 }
