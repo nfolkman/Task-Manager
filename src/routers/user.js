@@ -3,10 +3,10 @@
 const express = require('express')
 const sharp = require('sharp')
 const router = new express.Router()
-const User = require('.\\src\\models\\user.js')
-const auth = require('.\\src\\middleware\\auth.js')
+const User = require('././user.js')
+const auth = require('../middleware/auth.js')
 const multer = require('multer')
-const { sendWelcomeEmail, sendCancelationEmail } = require('.\\src\\emails\\account.js')
+const { sendWelcomeEmail, sendCancelationEmail } = require('../emails/account.js')
 
 
 
@@ -244,7 +244,7 @@ router.delete('/users/me/avatar', auth, async (req, res) => {
 })
 
 // fetch avatar
-res.get('/users/:id/avatar', async (req, res) => {
+router.get('/users/:id/avatar', async (req, res) => {
 
    try{
 

@@ -8,7 +8,7 @@ const bcrypt = require('bcryptjs') // for password encryption
 
 const jwt = require('jsonwebtoken') // for user authentication token
 
-const Task = require('.\\src\\models\\task.js')
+const Task = require('../models/task.js')
 
 
 

@@ -3,7 +3,7 @@
 
 const jwt = require('jsonwebtoken')
 
-const User = require('.\\src\\models\\user.js')
+const User = require('../models/user.js')
 
 const auth = async(req, res, next) => {
 

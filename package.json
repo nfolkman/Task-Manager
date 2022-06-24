@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nfolkman/Task-Manager-App#readme",
   "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
     "bcryptjs": "^2.4.3",
     "config": "^3.3.7",
     "express": "^4.18.1",

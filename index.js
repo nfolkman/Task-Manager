@@ -1,16 +1,16 @@
 // Require the packages we will need in the app
 
 const express = require('express')
-const userRouter = require('.\\src\\routers\\user.js')
-const taskRouter = require ('.\\src\\routers\\tasks.js')
-const mongooserequiring = require('.\\src\\db\\mongoose.js')
+const userRouter = require('./src/routers/user.js')
+const taskRouter = require ('./src/routers/tasks.js')
+const mongooserequiring = require('./src/db/mongoose.js')
 
 
 
 // Define app as express application and define port (including defining PORT number in our config file for security and reliability)
 
 const app = express()
-const port = process.env.port
+const port = 3000 || process.env.port
 
 
 // Set up paths for middleware layers of application
